@@ -1,0 +1,32 @@
+# =========================
+# COMMON
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.DS_Store
+
+# =========================
+# BACKEND (Node / Express)
+# =========================
+backend/node_modules/
+backend/dist/
+
+# =========================
+# FRONTEND (React)
+# =========================
+frontend/node_modules/
+frontend/build/
+
+# =========================
+# DASHBOARD (React / Admin)
+# =========================
+dashboard/node_modules/
+dashboard/build/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+*.log
